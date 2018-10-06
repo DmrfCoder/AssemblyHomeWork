@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     char strs[100];
     
     printf("请输入一个字符串：");
+    
     scanf("%s",strs);
     
     char  a=0,b=0,c=0;

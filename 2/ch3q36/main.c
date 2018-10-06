@@ -11,8 +11,9 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     char c1,c2;
-    printf("请连续输入两个字符：");
+    printf("请连续输入两个字符：\n");
     scanf("%c%c",&c1,&c2);
+  
     short result=0;//16位，存放结果
     
     asm{

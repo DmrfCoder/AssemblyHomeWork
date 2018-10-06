@@ -13,7 +13,6 @@ int main(int argc, const char * argv[]) {
     int a=0,b=0;
     printf("请输入两个整数：");
     scanf("%d%d",&a,&b);
-    
     asm{
         mov eax,a;
         mov ebx,b;

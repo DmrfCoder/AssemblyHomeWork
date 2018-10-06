@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
     }
     printf("\n");
     
+    
     int g=0,l=0,e=0;
     
     

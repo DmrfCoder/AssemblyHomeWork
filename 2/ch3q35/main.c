@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     unsigned  int n=0;
     printf("请输入一个无符号整数：");
     scanf("%u",n);
+   
     int count=0;
     
     asm{

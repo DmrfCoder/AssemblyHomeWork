@@ -14,13 +14,15 @@ int main(int argc, const char * argv[]) {
     char strs[100];
     char strs2[100];
     
-    printf("请输入一个字符串：");
+    printf("请输入一个字符串：abcde\n");
+   
+    
     scanf("%s",strs);
     
     
     asm{
         lea eax,strs;//strs的首地址给eax
-        lea ebx,strs2;
+        lea ebx,strs2;g
         mov esi,0;//下标
         
     method1:
